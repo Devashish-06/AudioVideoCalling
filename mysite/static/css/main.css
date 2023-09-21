@@ -1,0 +1,27 @@
+.video-grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: 60% 20%;
+    justify-content: space-between;
+}
+
+video {
+    border-radius: 100%;
+    background-color: black;
+    float: left;
+    border-radius: 5%;
+    height: 400px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+#video-container{
+    width:max-content;
+}
+
